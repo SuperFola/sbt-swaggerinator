@@ -1,0 +1,8 @@
+# JVM params
+-J-Xss4M
+-J-Xms2g
+-J-Xmx4g
+-J-XX:+UseG1GC
+-Dorg.mockito.lock.singleton=true
+-Dsbt.override.build.repos=true
+-Dsbt.boot.credentials=~/.sbt/.credentials
